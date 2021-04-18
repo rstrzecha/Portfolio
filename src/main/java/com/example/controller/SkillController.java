@@ -3,6 +3,7 @@ package com.example.controller;
 import com.example.entity.Skill;
 import com.example.service.SkillService;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,9 +24,11 @@ public class SkillController {
         return "/skill/add-skill";
     }
 
-//    @RequestMapping(value = {"/editSkill/{id}"}, method = RequestMethod.GET)
-    @RequestMapping(value = {"/editSkill"}, method = RequestMethod.GET)
-    public String getEditSkill() {
+    @RequestMapping(value = {"/editSkill/{id}"}, method = RequestMethod.GET)
+//    @RequestMapping(value = {"/editSkill"}, method = RequestMethod.GET)
+    public String getEditSkill(Model model, @PathVariable String id)
+    {
+        model.addAttribute("skill", skillService.getSkill(Long.parseLong(id)));
         return "/skill/edit-skill";
     }
 
