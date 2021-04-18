@@ -11,7 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>portfolio</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>portfolio</name>
     <description>Demo project for Spring Boot</description>
     <properties>
@@ -45,8 +45,12 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.tomcat.embed</groupId>      <!--  to nie wiem po co, ale z tym działa lokalnie -->
+            <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
 
