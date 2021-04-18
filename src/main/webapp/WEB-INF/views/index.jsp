@@ -179,7 +179,19 @@
               </div>
             </div>
 
-
+            <c:forEach items="${skills}" var="skill">
+              <form action="deleteSkill/${skill.id}" method="post">
+                <a  href='<c:url value="/editSkill/${skill.id}"/>' class="progress">
+                  <span class="skill">${skill.skillName}<i class="val">${skill.level}</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="${skill.level}" aria-valuemin="0"
+                         aria-valuemax="100"></div>
+                  </div>
+                </a>
+                <button class="deleteSkill-button" type="submit">Usuń skilla</button>
+                <br>
+              </form>
+            </c:forEach>
 
           </div>
 

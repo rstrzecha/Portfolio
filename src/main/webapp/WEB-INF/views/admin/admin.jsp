@@ -10,10 +10,11 @@
     <nav class="nav-menu">
       <ul>
 <%--        href='<c:url value="/index"/>'--%>
-        <li class="active"><a href='<c:url value="/index"/>'><i class="bx bx-home"></i> <span>Główna</span></a></li>
+<%--        <li class="active"><a href='<c:url value="/index"/>'><i class="bx bx-home"></i> <span>Główna</span></a></li>--%>
+        <li class="active"><a href="index"><i class="bx bx-home"></i> <span>Główna</span></a></li>
         <!-- <li><a href="#about"><i class="bx bx-user"></i> <span>O mnie</span></a></li> -->
         <!-- <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>CV</span></a></li> -->
-        <li><a href='<c:url value="/admin"/>'><i class="fas fa-users-cog"></i> <span>Admin</span></a></li>
+        <li><a href="admin"><i class="fas fa-users-cog"></i> <span>Admin</span></a></li>
         <!-- <li><a href="#services"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
         <!-- <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
       </ul>
@@ -137,7 +138,6 @@
           <div class="col-lg-12">
             <c:forEach items="${skills}" var="skill">
               <form action="deleteSkill/${skill.id}" method="post">
-<%--                  <a href="/editSkill/${skill.id}" class="progress">--%>
                   <a  href='<c:url value="/editSkill/${skill.id}"/>' class="progress">
                   <span class="skill">${skill.skillName}<i class="val">${skill.level}</i></span>
                   <div class="progress-bar-wrap">
