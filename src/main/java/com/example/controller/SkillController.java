@@ -42,7 +42,7 @@ public class SkillController {
     public RedirectView deleteSkill(@ModelAttribute Skill skill,
                                      @PathVariable("skillId") Long skillId) {
 
-        Skill skillToDelete = skillService.findById(skillId);
+//        Skill skillToDelete = skillService.findById(skillId);
         skillService.deleteSkill(skillId);
         return new RedirectView("/admin");
     }
