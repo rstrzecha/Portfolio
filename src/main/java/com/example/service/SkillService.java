@@ -38,18 +38,14 @@ public class SkillService {
         return skillRepository.findById(id).get();
     }
 
-/*
-    public void editTask(Task task, Person person) {
-        Task editedTask = new Task(
-                task.getId(),
-                task.getDeadline(),
-                task.getDescription(),
-                task.getColor(),
-                task.getCreationDate(),
-//                task.getPerson()
-                person
+
+    public void editSkill(Skill skill, String givenId) {
+        Skill editedSkill = new Skill(
+                skill.getSkillName(),
+                skill.getLevel()
         );
-        taskRepository.save(editedTask);
+        editedSkill.setId(givenId);
+        skillRepository.save(editedSkill);
     }
-*/
+
 }

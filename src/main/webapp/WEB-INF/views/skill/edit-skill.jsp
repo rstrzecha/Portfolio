@@ -37,7 +37,8 @@
 
           <div class="col-lg-12">
 
-            <form name="postSaveSkill" method="post" action="saveSkill" modelAttribute="skill">
+            <form name="postEditSaveSkill" method="post" action='<c:url value="/postEditSaveSkill/${skill.id}"/>'
+                  modelAttribute="skill">
               <div class="col-lg-12">
                 <div class="row">
                   <div class="col-lg-1">
@@ -51,7 +52,7 @@
                   </div>
                   <div class="col-lg-2">
                     <input class="form-control" name="level" id="Level" type="number" min="1" max="100"
-                           value="${skill.id}">
+                           value="${skill.level}">
                   </div>
                 </div>
                 <br>

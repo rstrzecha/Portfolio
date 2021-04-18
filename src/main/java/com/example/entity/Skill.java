@@ -16,8 +16,17 @@ public class Skill {
     public Skill() {
     }
 
+    public Skill(String skillName, Integer level) {
+        this.skillName = skillName;
+        this.level = level;
+    }
+
     public Long getId() {
         return id;
+    }
+
+    public void setId(/*Long*/ String id) {
+        this.id = Long.parseLong(id);
     }
 
     public String getSkillName() {
