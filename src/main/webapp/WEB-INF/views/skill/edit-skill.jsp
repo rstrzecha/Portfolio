@@ -31,7 +31,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Dodaj Umiejętność</h2>
+          <h2>Edytuj Umiejętność</h2>
           <p>Wpisz nazwę skilla, wartość i zatwierdź</p>
         </div>
 

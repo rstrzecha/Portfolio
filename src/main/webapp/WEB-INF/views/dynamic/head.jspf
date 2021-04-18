@@ -16,10 +16,10 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href='<c:url value="resources/img/favicon.png"/>' rel="icon">
-  <link href='<c:url value="resources/img/apple-touch-icon.png"/>' rel="apple-touch-icon">
+  <link href='<c:url value="/resources/img/favicon.png"/>' rel="icon">
+  <link href='<c:url value="/resources/img/apple-touch-icon.png"/>' rel="apple-touch-icon">
 
-  <link href='<c:url value="resources/fontawesome-free-5.15.2-web/css/all.min.css"/>' rel="stylesheet"
+  <link href='<c:url value="/resources/fontawesome-free-5.15.2-web/css/all.min.css"/>' rel="stylesheet"
         type="text/css">
 
   <!-- Google Fonts -->
@@ -27,15 +27,15 @@
 
   <!-- Vendor CSS Files -->
 
-  <link href='<c:url value="resources/vendor/bootstrap/css/bootstrap.min.css"/>' rel="stylesheet">
-  <link href='<c:url value="resources/vendor/icofont/icofont.min.css"/>' rel="stylesheet">
-  <link href='<c:url value="resources/vendor/boxicons/css/boxicons.min.css"/>' rel="stylesheet">
-  <link href='<c:url value="resources/vendor/venobox/venobox.css"/>' rel="stylesheet">
-  <link href='<c:url value="resources/vendor/owl.carousel/assets/owl.carousel.min.css"/>' rel="stylesheet">
-  <link href='<c:url value="resources/vendor/aos/aos.css"/>' rel="stylesheet">
+  <link href='<c:url value="/resources/vendor/bootstrap/css/bootstrap.min.css"/>' rel="stylesheet">
+  <link href='<c:url value="/resources/vendor/icofont/icofont.min.css"/>' rel="stylesheet">
+  <link href='<c:url value="/resources/vendor/boxicons/css/boxicons.min.css"/>' rel="stylesheet">
+  <link href='<c:url value="/resources/vendor/venobox/venobox.css"/>' rel="stylesheet">
+  <link href='<c:url value="/resources/vendor/owl.carousel/assets/owl.carousel.min.css"/>' rel="stylesheet">
+  <link href='<c:url value="/resources/vendor/aos/aos.css"/>' rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href='<c:url value="resources/css/style.css"/>' rel="stylesheet">
+  <link href='<c:url value="/resources/css/style.css"/>' rel="stylesheet">
 
 
   <!-- =======================================================
