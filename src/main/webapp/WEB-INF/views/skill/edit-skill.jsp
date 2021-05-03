@@ -70,29 +70,12 @@
                   </button>
                 </div>
               </div>
-
-
-
             </form>
 
-
-
-
-
-
-            
-
-
           </div>
-
         </div>
-
       </div>
     </section><!-- End Skills Section -->
-
-
-  
-  
   </main><!-- End #main -->
 
 <%@include file="../dynamic/footer.jspf"%>

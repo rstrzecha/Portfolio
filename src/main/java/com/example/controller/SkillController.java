@@ -25,7 +25,6 @@ public class SkillController {
     }
 
     @RequestMapping(value = {"/editSkill/{id}"}, method = RequestMethod.GET)
-//    @RequestMapping(value = {"/editSkill"}, method = RequestMethod.GET)
     public String getEditSkill(Model model, @PathVariable String id)
     {
         model.addAttribute("skill", skillService.getSkill(Long.parseLong(id)));
@@ -41,8 +40,6 @@ public class SkillController {
     @RequestMapping(value = {"/deleteSkill/{skillId}"}, method = RequestMethod.POST)
     public RedirectView deleteSkill(@ModelAttribute Skill skill,
                                      @PathVariable("skillId") Long skillId) {
-
-//        Skill skillToDelete = skillService.findById(skillId);
         skillService.deleteSkill(skillId);
         return new RedirectView("/admin");
     }

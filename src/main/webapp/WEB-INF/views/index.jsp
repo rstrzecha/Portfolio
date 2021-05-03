@@ -44,13 +44,13 @@
 
         <div class="section-title">
           <h2>O mnie</h2>
-          <p>Większość swojej zawodowej kariery pracowałem jako Inżynier Elektronik w Geofizyce Toruń. Praca ta była niezwykle ciekawa i wymagająca ze&nbsp;względu na konieczność ciągłego utrzymania sprzętu w sprawności, wykonywania testów okresowych, naprawiania i zapobiegania awariom, rozwiązywania problemów. W trakcie kontraktów zagranicznych miałem okazję pracować w międzynarodowych zespołach, co dodatkowo&nbsp;wzbogaciło mój bagaż doświadczeń. Obecnie szukając kolejnej możliwości rozwoju, postanowiłem zrealizować jedno ze swoich marzeń i znaleźć pracę w&nbsp;branży&nbsp;IT. Aby osiągnąć swój cel, od kilku lat uczę się programowania.
-            Lubię nowe wyzwania i pragnę ciągle się rozwijać. </p>
+          <p>Większość swojej zawodowej kariery pracowałem jako Inżynier Elektronik w&nbsp;Geofizyce Toruń. Praca&nbsp;ta była niezwykle ciekawa i&nbsp;wymagająca ze&nbsp;względu na&nbsp;konieczność ciągłego utrzymania sprzętu w&nbsp;sprawności, wykonywania testów okresowych, naprawiania i&nbsp;zapobiegania awariom, rozwiązywania problemów. W&nbsp;trakcie kontraktów zagranicznych miałem okazję pracować w&nbsp;międzynarodowych zespołach, co&nbsp;dodatkowo&nbsp;wzbogaciło mój bagaż doświadczeń. Obecnie szukając kolejnej możliwości rozwoju, postanowiłem zrealizować jedno ze&nbsp;swoich marzeń i&nbsp;znaleźć pracę w&nbsp;branży&nbsp;IT. Aby&nbsp;osiągnąć swój cel, od&nbsp;kilku lat uczę&nbsp;się programowania.
+            Lubię nowe wyzwania i&nbsp;pragnę ciągle się&nbsp;rozwijać. </p>
         </div>
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="resources/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="../../resources/img/profile-img.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Java Developer &amp; SQL Developer</h3>
@@ -79,9 +79,9 @@
               </div>
             </div>
             <p style="text-align: justify;">
-              Zawsze interesowały mnie nowoczesne technologie. Dlatego najpierw ukończyłem technikum o&nbsp;specjalności Systemy Komputerowe, następnie studia z Elektroniki i Telekomunikacji.
-              W&nbsp;pewnym etapie mojego życia postanowiłem nauczyć się programowania. Początkowo uczyłem się samodzielnie języka C++ korzystając z książek i materiałów dostępnych w internecie.
-              <br>Tak rozpoczęła się moja przygoda z programowaniem.
+              Zawsze interesowały mnie nowoczesne technologie. Dlatego najpierw ukończyłem technikum o&nbsp;specjalności Systemy Komputerowe, następnie studia z&nbsp;Elektroniki i&nbsp;Telekomunikacji.
+              W&nbsp;pewnym etapie mojego życia postanowiłem nauczyć&nbsp;się programowania. Początkowo uczyłem&nbsp;się samodzielnie języka C++ korzystając z&nbsp;książek i&nbsp;materiałów dostępnych w&nbsp;internecie.
+              <br>Tak rozpoczęła&nbsp;się moja przygoda z&nbsp;programowaniem.
             </p>
           </div>
         </div>
@@ -143,54 +143,50 @@
 
         <div class="section-title">
           <h2>Umiejętności</h2>
-          <p>Obecnie uczęszczam (zdalnie) na kurs "Java od podstaw". Tam szczególny nacisk kładziony jest na dobre praktyki programistyczne, zasady SOLID i&nbsp;wzorce projektowe.
-            Oprócz tego omówiliśmy szereg różnych technologii, które poznałem w mniejszym lub większym stopniu. Zestawienie i moja subiektywna ocena skilla w poszczególnej dziedzinie poniżej. </p>
+          <p>Właśnie ukończyłem kurs "Java od&nbsp;podstaw". Tam szczególny nacisk kładziony był na&nbsp;dobre praktyki programistyczne, zasady SOLID i&nbsp;wzorce projektowe.
+            Oprócz tego omówiliśmy szereg różnych technologii, które poznałem w mniejszym lub większym stopniu. Zestawienie i&nbsp;moja subiektywna ocena skilla w&nbsp;poszczególnej dziedzinie poniżej. </p>
         </div>
 
         <div class="row skills-content">
 
           <div class="col-lg-12">
 
-            <div class="progress">
-              <span class="skill">Java <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+<%--            <div class="progress">--%>
+<%--              <span class="skill">Java <i class="val">75%</i></span>--%>
+<%--              <div class="progress-bar-wrap">--%>
+<%--                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>--%>
+<%--              </div>--%>
+<%--            </div>--%>
 
-            <div class="progress">
-              <span class="skill">SQL <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+<%--            <div class="progress">--%>
+<%--              <span class="skill">SQL <i class="val">80%</i></span>--%>
+<%--              <div class="progress-bar-wrap">--%>
+<%--                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>--%>
+<%--              </div>--%>
+<%--            </div>--%>
 
-            <div class="progress">
-              <span class="skill">HTML <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+<%--            <div class="progress">--%>
+<%--              <span class="skill">HTML <i class="val">50%</i></span>--%>
+<%--              <div class="progress-bar-wrap">--%>
+<%--                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>--%>
+<%--              </div>--%>
+<%--            </div>--%>
 
-            <div class="progress">
-              <span class="skill">CSS <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+<%--            <div class="progress">--%>
+<%--              <span class="skill">CSS <i class="val">50%</i></span>--%>
+<%--              <div class="progress-bar-wrap">--%>
+<%--                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>--%>
+<%--              </div>--%>
+<%--            </div>--%>
 
             <c:forEach items="${skills}" var="skill">
-              <form action="deleteSkill/${skill.id}" method="post">
-                <a  href='<c:url value="/editSkill/${skill.id}"/>' class="progress">
-                  <span class="skill">${skill.skillName}<i class="val">${skill.level}</i></span>
-                  <div class="progress-bar-wrap">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="${skill.level}" aria-valuemin="0"
-                         aria-valuemax="100"></div>
-                  </div>
-                </a>
-                <button class="deleteSkill-button" type="submit">Usuń skilla</button>
-                <br>
-              </form>
+              <div class="progress">
+                <span class="skill">${skill.skillName}<i class="val">${skill.level}%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="${skill.level}" aria-valuemin="0"
+                       aria-valuemax="100"></div>
+                </div>
+              </div>
             </c:forEach>
 
           </div>
@@ -224,7 +220,7 @@
             <h3 class="resume-title">Edukacja</h3>
             <div class="resume-item">
               <h4>KURS "JAVA OD PODSTAW"</h4>
-              <h5>08/2020 - 04/2021 (planowana data zakończenia)</h5>
+              <h5>08/2020 - 04/2021</h5>
               <p><em>Software Development Academy</em></p>
                 <ul>
                   <li>Java</li>

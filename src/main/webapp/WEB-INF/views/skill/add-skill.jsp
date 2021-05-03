@@ -9,10 +9,10 @@
 
     <nav class="nav-menu">
       <ul>
-        <li class="active"><a href=""><i class="bx bx-home"></i> <span>Główna</span></a></li>
+        <li class="active"><a href="/index"><i class="bx bx-home"></i> <span>Główna</span></a></li>
         <!-- <li><a href="#about"><i class="bx bx-user"></i> <span>O mnie</span></a></li> -->
         <!-- <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>CV</span></a></li> -->
-        <li><a href="admin"><i class="fas fa-users-cog"></i> <span>Admin</span></a></li>
+        <li><a href="/admin"><i class="fas fa-users-cog"></i> <span>Admin</span></a></li>
         <!-- <li><a href="#services"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
         <!-- <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
       </ul>
@@ -43,13 +43,13 @@
                     <label for="SkillName" class="col-2 col-form-label">Nazwa</label>
                   </div>
                   <div class="col-lg-4">
-                    <input class="form-control" name="skillName" id="SkillName" type="text">
+                    <input class="form-control" name="skillName" id="SkillName" type="text" required>
                   </div>
                   <div class="col-lg-2">
                     <label for="Level" class="col-2 col-form-label">Poziom (1-100)</label>
                   </div>
                   <div class="col-lg-2">
-                    <input class="form-control" name="level" id="Level" type="number" min="1" max="100">
+                    <input class="form-control" name="level" id="Level" value="1" type="number" min="1" max="100">
                   </div>
                 </div>
                 <br>
@@ -64,29 +64,12 @@
                   </button>
                 </div>
               </div>
-
-
-
             </form>
 
-
-
-
-
-
-            
-
-
           </div>
-
         </div>
-
       </div>
     </section><!-- End Skills Section -->
-
-
-  
-  
   </main><!-- End #main -->
 
 <%@include file="../dynamic/footer.jspf"%>
